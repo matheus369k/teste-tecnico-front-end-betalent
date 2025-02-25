@@ -1,5 +1,3 @@
-import { AiOutlineSearch } from "react-icons/ai";
-
 import styles from "./styles.module.css";
 
 export function SearchBar() {
@@ -10,7 +8,7 @@ export function SearchBar() {
         type="text"
         placeholder="Pesquisar"
       />
-      <AiOutlineSearch className={styles.search_bar__icon} />
+      <i className={styles.search_bar__icon}></i>
     </div>
   );
 }

@@ -21,8 +21,9 @@
   width: 1.5rem;
   height: 1.5rem;
 
-  color: var(--color-gray-200);
-  background-color: transparent;
+  background-image: url("../../assets//search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .search_bar__field {
@@ -32,7 +33,6 @@
 
   flex: 1;
 
-  font-family: "helvetica neue", helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.1825rem;
