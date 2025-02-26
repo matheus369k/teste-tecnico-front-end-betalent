@@ -96,7 +96,7 @@
   height: 100%;
 }
 
-[data-dropdown="true"] .table_body__dropdown {
+.table_body__item:has(input[type='checkbox']:checked) .table_body__dropdown {
   background-image: url("../../assets/arrow-up.svg");
 }
 
@@ -105,13 +105,13 @@
   display: none;
 }
 
-.table_body__item:has(input[type='radio']) {
+.table_body__item:has(input[type='checkbox']) {
   max-height: 60px;
   overflow: hidden;
   transition: all 0.4s;
 }
 
-.table_body__item:has(input[type='radio']:checked) {
+.table_body__item:has(input[type='checkbox']:checked) {
   max-height: 200px;
 }
 
@@ -163,5 +163,11 @@
 
     grid-column: 3;
     grid-row: 1;
+  }
+}
+
+@media (width < 580px) {
+  .table {
+    width: 100%;
   }
 }

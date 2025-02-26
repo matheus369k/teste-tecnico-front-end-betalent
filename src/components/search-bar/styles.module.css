@@ -41,3 +41,9 @@
 .search_bar__field::placeholder {
   color: var(--color-gray-400);
 }
+
+@media (width < 580px) {
+  .search_bar {
+    width: 100%;
+  }
+}

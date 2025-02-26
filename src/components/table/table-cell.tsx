@@ -23,7 +23,7 @@ export function TableCell(props: Omit<TableTypes, "id">) {
       <td data-th-value="Data de admissão">{formattedAdmissionDate}</td>
       <td data-th-value="Telefone">{`+${countryCode} ${formattedPhoneNumber}`}</td>
       <td className={styles.table_body__dropdown}>
-        <input type="radio" name="dropdown-input" />
+        <input type="checkbox" name="dropdown-input" />
         <i></i>
       </td>
     </tr>
