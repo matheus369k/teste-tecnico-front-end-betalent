@@ -27,6 +27,7 @@ export function SearchBar() {
   return (
     <div className={styles.search_bar}>
       <input
+        aria-autocomplete="none"
         className={styles.search_bar__field}
         onChange={handleFilterTables}
         value={searchRef.current}
