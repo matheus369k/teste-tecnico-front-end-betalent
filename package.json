@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "dev:backend": "json-server --watch db.json"
+    "server": "json-server --watch db.json"
   },
   "dependencies": {
     "dayjs": "^1.11.13",
