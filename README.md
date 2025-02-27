@@ -24,7 +24,8 @@ Este é um repositório de um testes técnicos em front-end da BeTalent. As prin
 ### Instalação
 ```bash
 # Clone o repositório
-$ git clone https://github.com/BeMobile/desafio-front-end.git
+$ git clone https://github.com/matheus369k/teste-tecnico-front-end-betalent.git
+
 # Entre na pasta do projeto
 $ cd desafio-front-end
 # Instale as dependências
