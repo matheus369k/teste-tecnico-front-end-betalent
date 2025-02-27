@@ -20,9 +20,17 @@ export function Table() {
       </thead>
 
       <tbody className={styles.table_body}>
+        {tables.length > 0 ?( 
+        <>
         {tables.map((user) => {
           return <TableCell key={user.id} {...user} />;
         })}
+        </>) : (
+          <tr className={styles.table_body__empty}>
+            <td colSpan={5}>Nada foi encontrado...</td>
+          </tr>
+        )
+        }
       </tbody>
     </table>
   );
