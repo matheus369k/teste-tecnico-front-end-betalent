@@ -29,14 +29,14 @@ $ git clone https://github.com/matheus369k/teste-tecnico-front-end-betalent.git
 # Entre na pasta do projeto
 $ cd desafio-front-end
 # Instale as dependências
-$ npm install
+$ yarn install
 ```
 ### Executando
 ```bash
 # Inicie o back do projeto
-$ npm run server
+$ yarn server
 # Inicie o front do projeto
-$ npm run dev
+$ yarn dev
 ```
 ## Licença
 Não há licença para este projeto.
