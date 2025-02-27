@@ -20,6 +20,7 @@ Este é um repositório de um testes técnicos em front-end da BeTalent. As prin
 ### Pré-requisitos
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
 
 ### Instalação
 ```bash
